@@ -1,0 +1,21 @@
+{
+  "name": "aws-ses-serverless-example",
+  "version": "0.0.1",
+  "description": "AWS SES example in NodeJS using lambda",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "serverless-offline": "^13.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.6.0",
+    "serverless-plugin-common-excludes": "^4.0.0",
+    "serverless-plugin-include-dependencies": "^6.1.0",
+    "serverless-webpack": "^1.0.0-rc.2"
+  }
+}
